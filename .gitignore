@@ -1,3 +1,9 @@
+# My Custom Data Filters
+data/
+*.parquet
+*.csv
+.ipynb_checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
