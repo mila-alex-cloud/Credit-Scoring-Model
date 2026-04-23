@@ -29,4 +29,4 @@ Alternative Consideration: Logistic Regression
 *   Interpretability: LogReg remains the most transparent and interpretable model for stakeholders.
 *   Selection Logic: Had the Logistic Regression model shown a comparable ROC-AUC, it would have been the preferred choice due to its simplicity. However, the performance gap justifies the use of the more complex CatBoost model.
 
-**The Project contains extended results interpretation, featuring Confusion Matrix and Classification Report (with both default and customized thresholds).**
+**The Project contains extended results interpretation, featuring Confusion Matrix and Classification Report (with both default and custom thresholds).**
