@@ -13,7 +13,7 @@ This project focuses on building a high-performance credit scoring model to pred
 **Key Features:**
 *   Scalable Architecture: Used Dask for "lazy" computing to process data in chunks without memory overflows.
 *   Feature Engineering:
-    Delinquency Buckets: Categorized overdue periods (e.g., <5d, 5-30d, 90d+).
+    Delinquency Buckets: Categorized overdue periods (e.g., <5d, 5-30d, 30-60d, 90d+).
     Credit Dynamics: Age of oldest credit, limit utilization rates, and total debt burden.
     Clean Logic: Removed data contradictions (e.g., removing >90d delinquencies not yet flagged as defaults).
 *   Hyperparameter Tuning: Performed RandomizedSearchCV with 5-fold cross-validation to optimize model stability and ROC-AUC score.
